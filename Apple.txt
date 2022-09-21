@@ -1,0 +1,31 @@
+using System;
+namespace ConsoleApp
+{
+	class DataTypesProgram
+	{
+	  static void Main(string[] args)
+	{
+		Console.Write("Enter the pieces of apple: ");
+		string apples = Console.ReadLine();
+		
+		
+	    Console.Write("Enter the total price of 6 apple(s): ");
+	    double PriceApples;
+	    PriceApples = Convert.ToDouble(Console.ReadLine());
+	    
+	    Console.Write("the total price of 6 apple(s): ");
+	    double Apples;
+	    Apples = Convert.ToDouble(Console.ReadLine());
+        double output = Math.Floor(PriceApples);
+   
+    
+	    Console.WriteLine("\nthe total price of 6 apple(s): " + Apples);
+	    Console.WriteLine("the value of original price is: " + PriceApples) ;
+        Console.WriteLine("the value of converted price is: " + output) ;
+        
+	
+
+
+		}
+	}
+}
